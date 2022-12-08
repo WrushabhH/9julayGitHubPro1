@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="10" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-07T19:23:45 IST" name="DalalStreetSuite" finished-at="2022-12-07T19:25:30 IST" duration-ms="104748">
+    <groups>
+    </groups>
+    <test started-at="2022-12-07T19:23:45 IST" name="DalalStreetTest" finished-at="2022-12-07T19:25:30 IST" duration-ms="104748">
+      <class name="com.testLayer.TransactionTest">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.testLayer.TransactionTest@222545dc]" started-at="2022-12-07T19:25:13 IST" name="start" finished-at="2022-12-07T19:25:13 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testLayer.TransactionTest@222545dc]" started-at="2022-12-07T19:25:13 IST" name="setup" finished-at="2022-12-07T19:25:25 IST" duration-ms="11956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getTransationDetailsOnConsol()[pri:0, instance:com.testLayer.TransactionTest@222545dc]" started-at="2022-12-07T19:25:25 IST" name="getTransationDetailsOnConsol" finished-at="2022-12-07T19:25:30 IST" duration-ms="4561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTransationDetailsOnConsol -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testLayer.TransactionTest@222545dc]" started-at="2022-12-07T19:25:30 IST" name="tearDown" finished-at="2022-12-07T19:25:30 IST" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="end()[pri:0, instance:com.testLayer.TransactionTest@222545dc]" started-at="2022-12-07T19:25:30 IST" name="end" finished-at="2022-12-07T19:25:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.testLayer.TransactionTest -->
+      <class name="com.testLayer.TradingShearTest">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.testLayer.TradingShearTest@6ae5aa72]" started-at="2022-12-07T19:23:45 IST" name="start" finished-at="2022-12-07T19:23:45 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testLayer.TradingShearTest@6ae5aa72]" started-at="2022-12-07T19:23:45 IST" name="setup" finished-at="2022-12-07T19:24:12 IST" duration-ms="26603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyBuyShareAxisBank()[pri:0, instance:com.testLayer.TradingShearTest@6ae5aa72]" started-at="2022-12-07T19:24:12 IST" name="verifyBuyShareAxisBank" finished-at="2022-12-07T19:24:32 IST" duration-ms="20154" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='m-4 card'])[2]"}
+  (Session info: chrome=108.0.5359.95)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a03ceefb23114111249668024bfd8706, findElement {using=xpath, value=(//div[@class='m-4 card'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.95, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\wrushabh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52940}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52940/devtoo..., se:cdpVersion: 108.0.5359.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a03ceefb23114111249668024bfd8706]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='m-4 card'])[2]"}
+  (Session info: chrome=108.0.5359.95)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.5.3', revision: '4b786a1e430'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a03ceefb23114111249668024bfd8706, findElement {using=xpath, value=(//div[@class='m-4 card'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.95, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\wrushabh\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52940}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52940/devtoo..., se:cdpVersion: 108.0.5359.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a03ceefb23114111249668024bfd8706
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at com.pageLayer.DashboardPage.clickOnCompanyOption(DashboardPage.java:36)
+at com.testLayer.TradingShearTest.verifyBuyShareAxisBank(TradingShearTest.java:61)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuyShareAxisBank -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testLayer.TradingShearTest@6ae5aa72]" started-at="2022-12-07T19:24:32 IST" name="tearDown" finished-at="2022-12-07T19:24:33 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testLayer.TradingShearTest@6ae5aa72]" started-at="2022-12-07T19:24:33 IST" name="setup" finished-at="2022-12-07T19:24:46 IST" duration-ms="12836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyBuyShareIciciBank()[pri:0, instance:com.testLayer.TradingShearTest@6ae5aa72]" started-at="2022-12-07T19:24:46 IST" name="verifyBuyShareIciciBank" finished-at="2022-12-07T19:24:53 IST" duration-ms="7029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuyShareIciciBank -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testLayer.TradingShearTest@6ae5aa72]" started-at="2022-12-07T19:24:53 IST" name="tearDown" finished-at="2022-12-07T19:24:53 IST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testLayer.TradingShearTest@6ae5aa72]" started-at="2022-12-07T19:24:53 IST" name="setup" finished-at="2022-12-07T19:25:06 IST" duration-ms="13105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyBuyShareWipro()[pri:0, instance:com.testLayer.TradingShearTest@6ae5aa72]" started-at="2022-12-07T19:25:06 IST" name="verifyBuyShareWipro" finished-at="2022-12-07T19:25:13 IST" duration-ms="6745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuyShareWipro -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testLayer.TradingShearTest@6ae5aa72]" started-at="2022-12-07T19:25:13 IST" name="tearDown" finished-at="2022-12-07T19:25:13 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="end()[pri:0, instance:com.testLayer.TradingShearTest@6ae5aa72]" started-at="2022-12-07T19:25:13 IST" name="end" finished-at="2022-12-07T19:25:13 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.testLayer.TradingShearTest -->
+    </test> <!-- DalalStreetTest -->
+  </suite> <!-- DalalStreetSuite -->
+</testng-results>
