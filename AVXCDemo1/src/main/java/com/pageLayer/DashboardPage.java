@@ -16,6 +16,7 @@ public class DashboardPage extends TestBase{
 	
 	
 	//-------------Obj------------------
+	
      private By search_txt = By.xpath("//input[@class='form-control']");
 	 private By company_option = By.xpath("(//div[@class='m-4 card'])[2]");
 	 private By transactionLink = By.xpath("//a[@href='/transactions']");

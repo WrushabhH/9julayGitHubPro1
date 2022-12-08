@@ -89,6 +89,9 @@ public class TestBase {
 		    dash = new DashboardPage();
 	        exchange = new Exchange();
 	        transactions = new TransactionsPage();
+	        
+	        
+	        
 	    //------------------Login Steps----------------------
 	        login.enterEmailID("wrushabhhedaoo20@gmail.com");
 			login.enterPassword("m!nd20hack");

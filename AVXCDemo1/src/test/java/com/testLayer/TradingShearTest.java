@@ -9,6 +9,8 @@ public class TradingShearTest extends TestBase{
 	@Test
 	public void verifyBuyShareIciciBank() throws InterruptedException
 	{		
+		
+		
 	//--------------ICICI BANK---------------------
 		dash.enterCompanyName("ICICI BANK");
 		dash.clickOnCompanyOption();

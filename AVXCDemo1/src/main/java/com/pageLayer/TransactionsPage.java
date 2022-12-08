@@ -12,9 +12,11 @@ public class TransactionsPage extends TestBase{
 	}
      
 	//---------obj Repo---------------
+	
 	private By data= By.xpath("//table[@class='table table align-middle table-nowrap']/tbody/tr[1]/td[2]");
 	
 	//---------Actions---------------
+	
 	public void getTransactionDetails() 
 	{
 		 

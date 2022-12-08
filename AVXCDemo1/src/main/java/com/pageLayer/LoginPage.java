@@ -18,7 +18,6 @@ public class LoginPage extends TestBase{
 	//-----------Obj----------------
 
 	
-	
 	@FindBy(xpath="//input[@name='email']")
 	private WebElement email_txt;
 
@@ -31,7 +30,6 @@ public class LoginPage extends TestBase{
 	
 	
 	//-------Action Method-----------
-
 	
 	
 	public void enterEmailID(String email)

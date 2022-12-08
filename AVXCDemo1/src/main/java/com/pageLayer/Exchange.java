@@ -11,6 +11,7 @@ public class Exchange extends TestBase{
 	{
 		PageFactory.initElements(driver, this);
 	}
+	
     //---------------obj----------------------
 	private By buy_btn_Option = By.xpath("//a[@class='active nav-link']");
 	private By intrad_Order = By.xpath("//label[text() = 'Intraday']");
